@@ -2,8 +2,7 @@ def call (name){
   echo "Hey ${name}, welcome...!!!"
 }
 
-int readFileLineByLine(String filePath) {
-    File file = new File(filePath)
+int readFileLineByLine( File file) {
     def line, noOfLines = 0;
     file.withReader { reader ->
         while ((line = reader.readLine()) != null) {
