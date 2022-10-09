@@ -1,4 +1,4 @@
-Set readFileLineByLine(String str) {
+def readFileLineByLine(String str) {
   def textStr = str.split("\\r\\n|\\n|\\r");
    def listOfTags = [] as Set
    textStr.each { 
