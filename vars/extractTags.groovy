@@ -10,4 +10,5 @@ def readFileLineByLine(String str) {
    }
   println("tags : ")
   println listOfTags
+  return listOfTags
 }
