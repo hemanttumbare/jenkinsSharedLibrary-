@@ -9,5 +9,5 @@ Set readFileLineByLine(String str) {
      listOfTags.add(s.group())
    }
   println("tags : ")
-  println ${listOfTags}
+  println listOfTags
 }
